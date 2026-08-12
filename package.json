@@ -1,7 +1,7 @@
 {
   "name": "tanabana-frontend",
   "version": "0.1.0",
-  "description": "Tanabana \u2014 Angular client. 234 screens across 13 modules for ready-made garment manufacturing.",
+  "description": "Tanabana — Angular client. 234 screens across 13 modules for ready-made garment manufacturing.",
   "private": true,
   "scripts": {
     "start": "ng serve",
@@ -27,6 +27,7 @@
     "@angular/build": "^22.1.0",
     "@angular/cli": "^22.1.0",
     "@angular/compiler-cli": "^22.1.0",
+    "angular-cli-ghpages": "^3.1.0",
     "typescript": "~6.0.0"
   }
 }

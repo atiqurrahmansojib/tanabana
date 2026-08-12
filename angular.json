@@ -48,6 +48,9 @@
             "development": { "buildTarget": "garments-erp:build:development" }
           },
           "defaultConfiguration": "development"
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
