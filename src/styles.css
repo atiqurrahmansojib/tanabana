@@ -40,13 +40,16 @@
   --bar-h: 52px;
   --rail-w: 280px;
 
-  --r-sm: 5px;
-  --r-md: 8px;
-  --r-lg: 12px;
+  --r-sm: 6px;
+  --r-md: 9px;
+  --r-lg: 14px;
+  --r-xl: 18px;
 
   --shadow-sm: 0 1px 2px rgba(15, 20, 30, 0.05);
   --shadow-md: 0 10px 28px rgba(15, 20, 30, 0.10);
   --shadow-lg: 0 20px 48px rgba(15, 20, 30, 0.18);
+  --shadow-accent: 0 10px 24px -8px rgba(42, 74, 134, 0.45);
+  --ring: 0 0 0 4px rgba(42, 74, 134, 0.14);
 
   --font-display: "Fraunces", Georgia, "Noto Serif Bengali", serif;
   --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans Bengali", sans-serif;
@@ -91,9 +94,13 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing:
   align-items: center;
   gap: 16px;
   padding: 0 20px;
-  background: var(--ink);
+  background:
+    radial-gradient(420px 90px at 12% 0%, rgba(200, 147, 26, 0.16), transparent 70%),
+    linear-gradient(100deg, var(--ink) 0%, var(--accent-deep) 130%);
   color: #fff;
   position: relative;
+  box-shadow: 0 2px 14px rgba(10, 14, 22, 0.25);
+  z-index: 5;
 }
 
 .bar::after {
@@ -167,17 +174,19 @@ a.nav {
   display: flex;
   align-items: baseline;
   gap: 8px;
-  padding: 7px 14px 7px 34px;
+  margin: 1px 8px;
+  padding: 7px 12px 7px 26px;
   color: var(--ink-soft);
   text-decoration: none;
   font-size: 13px;
+  border-radius: var(--r-sm);
   border-left: 2px solid transparent;
 }
 
 a.nav:hover { background: var(--paper); color: var(--ink); }
 
 a.nav.on {
-  background: var(--accent-soft);
+  background: linear-gradient(90deg, var(--accent-soft) 0%, var(--accent-soft) 70%, transparent 100%);
   color: var(--accent-deep);
   font-weight: 600;
   border-left: 2px solid var(--accent);
@@ -255,16 +264,22 @@ a.nav.on .code { color: var(--accent); }
 .toolbar .count { margin-left: auto; color: var(--ink-faint); font-size: 12px; }
 
 .search, .filter, input, select, textarea {
-  padding: 7px 10px;
+  padding: 8px 11px;
   border: 1px solid var(--line);
   border-radius: var(--r-sm);
   font: inherit;
   background: var(--card);
   color: var(--ink);
+  transition: border-color 120ms ease, box-shadow 120ms ease;
 }
 
 .search { min-width: 260px; }
-input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible {
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: var(--ring);
+}
+button:focus-visible, a:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 1px;
 }
@@ -280,10 +295,22 @@ input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible
   cursor: pointer;
 }
 
-.btn:hover { background: var(--paper); border-color: #cfd4dc; }
-.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-.btn.primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
-.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn:hover { background: var(--paper); border-color: #cfd4dc; transform: translateY(-1px); }
+.btn:active { transform: translateY(0); }
+
+.btn.primary {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-deep) 100%);
+  border-color: var(--accent-deep);
+  color: #fff;
+  box-shadow: var(--shadow-accent);
+}
+.btn.primary:hover {
+  background: linear-gradient(135deg, var(--accent-hover) 0%, var(--accent-deep) 100%);
+  border-color: var(--accent-deep);
+  box-shadow: 0 14px 30px -8px rgba(42, 74, 134, 0.55);
+  transform: translateY(-1px);
+}
+.btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; box-shadow: none; }
 
 /* ------------------------------------------------------------------ table -- */
 
@@ -307,7 +334,8 @@ table.grid td {
   vertical-align: top;
 }
 
-table.grid tbody tr:hover { background: var(--accent-soft); cursor: pointer; }
+table.grid tbody tr { border-left: 2px solid transparent; }
+table.grid tbody tr:hover { background: var(--accent-soft); border-left: 2px solid var(--accent); cursor: pointer; }
 table.grid .right { text-align: right; font-variant-numeric: tabular-nums; }
 table.grid .ident { font-family: var(--mono); font-size: 12.5px; }
 table.grid .empty { color: var(--ink-faint); text-align: center; padding: 32px; cursor: default; }
@@ -578,10 +606,14 @@ table.grid.lines th { position: sticky; top: 0; background: var(--card); z-index
 }
 
 .brandside h1 {
-  font-size: 32px;
-  line-height: 1.2;
+  font-size: 38px;
+  line-height: 1.15;
   margin: 0;
   max-width: 15ch;
+  background: linear-gradient(100deg, #ffffff 0%, #dbe4f5 60%, #f3ddac 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .brandside p { margin: 0; opacity: 0.82; max-width: 42ch; line-height: 1.55; }
@@ -604,12 +636,12 @@ table.grid.lines th { position: sticky; top: 0; background: var(--card); z-index
 
 .signin-card {
   width: 100%;
-  max-width: 372px;
+  max-width: 388px;
   background: linear-gradient(175deg, #ffffff 0%, #fbfbfd 100%);
   border: 1px solid var(--line);
-  border-radius: var(--r-lg);
-  padding: 30px 30px 26px;
-  box-shadow: 0 24px 48px -20px rgba(20, 38, 74, 0.28), var(--shadow-sm);
+  border-radius: var(--r-xl);
+  padding: 34px 34px 30px;
+  box-shadow: 0 30px 60px -20px rgba(20, 38, 74, 0.32), var(--shadow-sm);
   position: relative;
   overflow: hidden;
 }
@@ -618,15 +650,15 @@ table.grid.lines th { position: sticky; top: 0; background: var(--card); z-index
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0;
-  height: 3px;
+  height: 4px;
   background: linear-gradient(90deg, var(--accent) 0%, var(--accent-deep) 55%, var(--thread) 100%);
 }
 
-.signin-card h2 { margin: 0 0 4px; font-size: 20px; }
-.signin-card .lead { margin: 0 0 20px; color: var(--ink-soft); font-size: 12.5px; }
+.signin-card h2 { margin: 0 0 4px; font-size: 23px; font-family: var(--font-display); }
+.signin-card .lead { margin: 0 0 22px; color: var(--ink-soft); font-size: 12.5px; }
 .signin-card label { display: block; font-size: 11.5px; font-weight: 600; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.04em; margin: 14px 0 5px; }
-.signin-card input { width: 100%; padding: 9px 11px; }
-.signin-card .btn { width: 100%; margin-top: 20px; padding: 10px; font-size: 13.5px; }
+.signin-card input { width: 100%; padding: 10px 12px; }
+.signin-card .btn { width: 100%; margin-top: 22px; padding: 11px; font-size: 13.5px; letter-spacing: 0.02em; }
 .signin-card .error { margin: 0 0 4px; }
 
 /* The demo picker: one seeded account per module, development only. A
@@ -679,11 +711,12 @@ table.grid.lines th { position: sticky; top: 0; background: var(--card); z-index
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--accent-soft);
+  background: linear-gradient(135deg, var(--accent-soft) 0%, #dbe6fa 100%);
   color: var(--accent-deep);
   font-family: var(--font-display);
   font-size: 15px;
   font-weight: 700;
+  box-shadow: inset 0 0 0 1px var(--accent-line);
 }
 
 .democard .dcinfo { display: flex; flex-direction: column; min-width: 0; flex: 1; gap: 2px; }
