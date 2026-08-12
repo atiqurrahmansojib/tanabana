@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "src/app/shell/denied.component.ts"
+  ],
+  "sourcesContent": [
+    "import { Component } from '@angular/core';\nimport { RouterLink } from '@angular/router';\n\n@Component({\n  selector: 'app-denied',\n  standalone: true,\n  imports: [RouterLink],\n  template: `\n    <section class=\"deny\">\n      <h1>You do not have access to this screen</h1>\n      <p>\n        This screen belongs to a module your role cannot open. Ask an\n        administrator to grant access, or sign in as another user.\n      </p>\n      <a class=\"btn\" routerLink=\"/\">Back to my workspace</a>\n    </section>\n  `,\n})\nexport class DeniedComponent {}\n"
+  ],
+  "mappings": ";;;;;;;;;;;;;AAkBM,IAAO,kBAAP,MAAO,iBAAe;;qCAAf,kBAAe;EAAA;yEAAf,kBAAe,WAAA,CAAA,CAAA,YAAA,CAAA,GAAA,OAAA,GAAA,MAAA,GAAA,QAAA,CAAA,CAAA,GAAA,MAAA,GAAA,CAAA,cAAA,KAAA,GAAA,KAAA,CAAA,GAAA,UAAA,SAAA,yBAAA,IAAA,KAAA;AAAA,QAAA,KAAA,GAAA;AAVxB,MAAA,yBAAA,GAAA,WAAA,CAAA,EAAsB,GAAA,IAAA;AAChB,MAAA,iBAAA,GAAA,uCAAA;AAAqC,MAAA,uBAAA;AACzC,MAAA,yBAAA,GAAA,GAAA;AACE,MAAA,iBAAA,GAAA,4HAAA;AAEF,MAAA,uBAAA;AACA,MAAA,yBAAA,GAAA,KAAA,CAAA;AAA8B,MAAA,iBAAA,GAAA,sBAAA;AAAoB,MAAA,uBAAA,EAAI;;oBARhD,UAAU,GAAA,eAAA,EAAA,CAAA;;;sEAYT,iBAAe,CAAA;UAf3B;WAAU;MACT,UAAU;MACV,YAAY;MACZ,SAAS,CAAC,UAAU;MACpB,UAAU;;;;;;;;;;KAUX;;;;6EACY,iBAAe,EAAA,WAAA,mBAAA,UAAA,qCAAA,YAAA,GAAA,CAAA;AAAA,GAAA;",
+  "names": [],
+  "debugId": "8c7e5529-b937-5225-938d-7f5515c21cae"
+}
