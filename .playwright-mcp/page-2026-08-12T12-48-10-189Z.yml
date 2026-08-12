@@ -1,0 +1,1230 @@
+- generic [ref=f5e4]:
+  - banner [ref=f5e5]:
+    - generic [ref=f5e6]: Tanabana
+    - generic [ref=f5e7]: Mr. Hoque · OWNER
+    - generic [ref=f5e8]: Unit scope ALL
+    - button "Language" [ref=f5e9] [cursor=pointer]: বাংলা
+    - button "Sign out" [ref=f5e10] [cursor=pointer]
+  - navigation [ref=f5e11]:
+    - generic [ref=f5e12]:
+      - button "▾ Merchandising 26" [ref=f5e13] [cursor=pointer]:
+        - generic [ref=f5e14]: ▾
+        - text: Merchandising
+        - generic [ref=f5e15]: "26"
+      - generic [ref=f5e16]: Master
+      - link "Buyer Master" [ref=f5e17] [cursor=pointer]:
+        - /url: /merchandising/buyer-master
+      - link "Colour Master" [ref=f5e18] [cursor=pointer]:
+        - /url: /merchandising/colour-master
+      - link "TNA Template Builder" [ref=f5e19] [cursor=pointer]:
+        - /url: /merchandising/tna-template-builder
+      - generic [ref=f5e20]: Costing
+      - link "Costing Template" [ref=f5e21] [cursor=pointer]:
+        - /url: /merchandising/costing-template
+      - link "Pre-Costing ★" [ref=f5e22] [cursor=pointer]:
+        - /url: /merchandising/pre-costing/1
+        - text: Pre-Costing
+        - generic [ref=f5e23]: ★
+      - link "Costing Simulator" [ref=f5e24] [cursor=pointer]:
+        - /url: /merchandising/costing-simulator
+      - link "Costing Revisions" [ref=f5e25] [cursor=pointer]:
+        - /url: /merchandising/costing-revisions
+      - link "Final Costing ★" [ref=f5e26] [cursor=pointer]:
+        - /url: /merchandising/final-costing/1
+        - text: Final Costing
+        - generic [ref=f5e27]: ★
+      - link "Buyer Price History" [ref=f5e28] [cursor=pointer]:
+        - /url: /merchandising/buyer-price-history
+      - generic [ref=f5e29]: Style
+      - link "Style Details ★" [ref=f5e30] [cursor=pointer]:
+        - /url: /merchandising/style-details/1
+        - text: Style Details
+        - generic [ref=f5e31]: ★
+      - link "Style Library & Clone" [ref=f5e32] [cursor=pointer]:
+        - /url: /merchandising/style-library-and-clone
+      - link "Measurement Spec (POM)" [ref=f5e33] [cursor=pointer]:
+        - /url: /merchandising/measurement-spec-pom
+      - link "Sample Request" [ref=f5e34] [cursor=pointer]:
+        - /url: /merchandising/sample-request
+      - link "Sample Costing" [ref=f5e35] [cursor=pointer]:
+        - /url: /merchandising/sample-costing
+      - link "Buyer Approval Tracker ★" [ref=f5e36] [cursor=pointer]:
+        - /url: /merchandising/buyer-approval-tracker
+        - text: Buyer Approval Tracker
+        - generic [ref=f5e37]: ★
+      - generic [ref=f5e38]: Order
+      - link "Order Breakdown — PO summary ★" [ref=f5e39] [cursor=pointer]:
+        - /url: /merchandising/order-breakdown-po-summary/1
+        - text: Order Breakdown — PO summary
+        - generic [ref=f5e40]: ★
+      - link "Order Breakdown — size/colour ★" [ref=f5e41] [cursor=pointer]:
+        - /url: /merchandising/order-breakdown-size-colour/1
+        - text: Order Breakdown — size/colour
+        - generic [ref=f5e42]: ★
+      - link "PO Amendment Log" [ref=f5e43] [cursor=pointer]:
+        - /url: /merchandising/po-amendment-log
+      - link "Sales Contract & Budget ★" [ref=f5e44] [cursor=pointer]:
+        - /url: /merchandising/sales-contract-and-budget/1
+        - text: Sales Contract & Budget
+        - generic [ref=f5e45]: ★
+      - link "BOM Generate ★" [ref=f5e46] [cursor=pointer]:
+        - /url: /merchandising/bom-generate
+        - text: BOM Generate
+        - generic [ref=f5e47]: ★
+      - generic [ref=f5e48]: T&A
+      - link "My Tasks ★" [ref=f5e49] [cursor=pointer]:
+        - /url: /merchandising/my-tasks
+        - text: My Tasks
+        - generic [ref=f5e50]: ★
+      - link "Traffic Light Board ★" [ref=f5e51] [cursor=pointer]:
+        - /url: /merchandising/traffic-light-board
+        - text: Traffic Light Board
+        - generic [ref=f5e52]: ★
+      - link "TNA Re-baseline" [ref=f5e53] [cursor=pointer]:
+        - /url: /merchandising/tna-re-baseline
+      - link "Order Timeline" [ref=f5e54] [cursor=pointer]:
+        - /url: /merchandising/order-timeline
+      - generic [ref=f5e55]: Insight
+      - link "Buyer Scorecard" [ref=f5e56] [cursor=pointer]:
+        - /url: /merchandising/buyer-scorecard
+      - link "Consumption Learning" [ref=f5e57] [cursor=pointer]:
+        - /url: /merchandising/consumption-learning
+    - generic [ref=f5e58]:
+      - button "▾ Supply Chain 15" [ref=f5e59] [cursor=pointer]:
+        - generic [ref=f5e60]: ▾
+        - text: Supply Chain
+        - generic [ref=f5e61]: "15"
+      - generic [ref=f5e62]: Master
+      - link "Item Group Hierarchy" [ref=f5e63] [cursor=pointer]:
+        - /url: /supply-chain/item-group-hierarchy
+      - link "Item Master ★" [ref=f5e64] [cursor=pointer]:
+        - /url: /supply-chain/item-master
+        - text: Item Master
+        - generic [ref=f5e65]: ★
+      - link "Supplier Master" [ref=f5e66] [cursor=pointer]:
+        - /url: /supply-chain/supplier-master
+      - link "Vendor Rating" [ref=f5e67] [cursor=pointer]:
+        - /url: /supply-chain/vendor-rating
+      - generic [ref=f5e68]: Procure
+      - link "Purchase Requisition" [ref=f5e69] [cursor=pointer]:
+        - /url: /supply-chain/purchase-requisition
+      - link "RFQ & Quotation Compare" [ref=f5e70] [cursor=pointer]:
+        - /url: /supply-chain/rfq-and-quotation-compare
+      - link "SPO — Fabric ★" [ref=f5e71] [cursor=pointer]:
+        - /url: /supply-chain/spo-fabric/1
+        - text: SPO — Fabric
+        - generic [ref=f5e72]: ★
+      - link "SPO — Trims ★" [ref=f5e73] [cursor=pointer]:
+        - /url: /supply-chain/spo-trims/1
+        - text: SPO — Trims
+        - generic [ref=f5e74]: ★
+      - link "SPO Delivery Schedule" [ref=f5e75] [cursor=pointer]:
+        - /url: /supply-chain/spo-delivery-schedule
+      - link "SPO Amendment" [ref=f5e76] [cursor=pointer]:
+        - /url: /supply-chain/spo-amendment
+      - link "PI Entry ★" [ref=f5e77] [cursor=pointer]:
+        - /url: /supply-chain/pi-entry
+        - text: PI Entry
+        - generic [ref=f5e78]: ★
+      - generic [ref=f5e79]: Track
+      - link "Import Shipment Tracking" [ref=f5e80] [cursor=pointer]:
+        - /url: /supply-chain/import-shipment-tracking
+      - link "Lead Time Alerts" [ref=f5e81] [cursor=pointer]:
+        - /url: /supply-chain/lead-time-alerts
+      - link "Supplier Recommendation" [ref=f5e82] [cursor=pointer]:
+        - /url: /supply-chain/supplier-recommendation
+      - generic [ref=f5e83]: Portal
+      - link "Supplier Portal Admin" [ref=f5e84] [cursor=pointer]:
+        - /url: /supply-chain/supplier-portal-admin
+    - generic [ref=f5e85]:
+      - button "▾ Inventory & Store 18" [ref=f5e86] [cursor=pointer]:
+        - generic [ref=f5e87]: ▾
+        - text: Inventory & Store
+        - generic [ref=f5e88]: "18"
+      - generic [ref=f5e89]: Setup
+      - link "Warehouse & Bin" [ref=f5e90] [cursor=pointer]:
+        - /url: /inventory/warehouse-and-bin
+      - link "UOM Conversion" [ref=f5e91] [cursor=pointer]:
+        - /url: /inventory/uom-conversion
+      - generic [ref=f5e92]: Receive
+      - link "Gate Pass In/Out" [ref=f5e93] [cursor=pointer]:
+        - /url: /inventory/gate-pass-in-out
+      - link "GRN" [ref=f5e94] [cursor=pointer]:
+        - /url: /inventory/grn/1
+      - link "Fabric Roll Register ★" [ref=f5e95] [cursor=pointer]:
+        - /url: /inventory/fabric-roll-register/1
+        - text: Fabric Roll Register
+        - generic [ref=f5e96]: ★
+      - link "Shade Band" [ref=f5e97] [cursor=pointer]:
+        - /url: /inventory/shade-band
+      - link "Barcode Label Print" [ref=f5e98] [cursor=pointer]:
+        - /url: /inventory/barcode-label-print
+      - generic [ref=f5e99]: Stock
+      - link "Material Status / Stock Ledger ★" [ref=f5e100] [cursor=pointer]:
+        - /url: /inventory/material-status-stock-ledger
+        - text: Material Status / Stock Ledger
+        - generic [ref=f5e101]: ★
+      - link "Material Readiness Board ★" [ref=f5e102] [cursor=pointer]:
+        - /url: /inventory/material-readiness-board
+        - text: Material Readiness Board
+        - generic [ref=f5e103]: ★
+      - link "Stock Issue" [ref=f5e104] [cursor=pointer]:
+        - /url: /inventory/stock-issue
+      - link "Roll Allocation by Shade" [ref=f5e105] [cursor=pointer]:
+        - /url: /inventory/roll-allocation-by-shade
+      - link "Stock Transfer" [ref=f5e106] [cursor=pointer]:
+        - /url: /inventory/stock-transfer
+      - link "Inter-Unit Transfer" [ref=f5e107] [cursor=pointer]:
+        - /url: /inventory/inter-unit-transfer
+      - link "Physical Count" [ref=f5e108] [cursor=pointer]:
+        - /url: /inventory/physical-count
+      - generic [ref=f5e109]: Store
+      - link "General Store Item" [ref=f5e110] [cursor=pointer]:
+        - /url: /inventory/general-store-item
+      - link "General Store Issue" [ref=f5e111] [cursor=pointer]:
+        - /url: /inventory/general-store-issue
+      - generic [ref=f5e112]: Insight
+      - link "Stock Aging & Dead Stock" [ref=f5e113] [cursor=pointer]:
+        - /url: /inventory/stock-aging-and-dead-stock
+      - link "Fabric Reuse Suggestion" [ref=f5e114] [cursor=pointer]:
+        - /url: /inventory/fabric-reuse-suggestion
+    - generic [ref=f5e115]:
+      - button "▾ Industrial Engineering 19" [ref=f5e116] [cursor=pointer]:
+        - generic [ref=f5e117]: ▾
+        - text: Industrial Engineering
+        - generic [ref=f5e118]: "19"
+      - generic [ref=f5e119]: Master
+      - link "Machine Type" [ref=f5e120] [cursor=pointer]:
+        - /url: /engineering/machine-type
+      - link "Operation Master" [ref=f5e121] [cursor=pointer]:
+        - /url: /engineering/operation-master
+      - link "Learning Curve Profile" [ref=f5e122] [cursor=pointer]:
+        - /url: /engineering/learning-curve-profile
+      - generic [ref=f5e123]: Engineer
+      - link "Time Study ★" [ref=f5e124] [cursor=pointer]:
+        - /url: /engineering/time-study
+        - text: Time Study
+        - generic [ref=f5e125]: ★
+      - link "Operation Bulletin ★" [ref=f5e126] [cursor=pointer]:
+        - /url: /engineering/operation-bulletin/1
+        - text: Operation Bulletin
+        - generic [ref=f5e127]: ★
+      - link "Line Balancing" [ref=f5e128] [cursor=pointer]:
+        - /url: /engineering/line-balancing
+      - link "Line Layout" [ref=f5e129] [cursor=pointer]:
+        - /url: /engineering/line-layout
+      - link "Workstation Assignment" [ref=f5e130] [cursor=pointer]:
+        - /url: /engineering/workstation-assignment
+      - generic [ref=f5e131]: Capacity
+      - link "Capacity Calendar (minutes) ★" [ref=f5e132] [cursor=pointer]:
+        - /url: /engineering/capacity-calendar-minutes
+        - text: Capacity Calendar (minutes)
+        - generic [ref=f5e133]: ★
+      - link "Capacity Booking" [ref=f5e134] [cursor=pointer]:
+        - /url: /engineering/capacity-booking
+      - link "Unit Load Balancer" [ref=f5e135] [cursor=pointer]:
+        - /url: /engineering/unit-load-balancer
+      - link "Order Acceptance Score ★" [ref=f5e136] [cursor=pointer]:
+        - /url: /engineering/order-acceptance-score
+        - text: Order Acceptance Score
+        - generic [ref=f5e137]: ★
+      - generic [ref=f5e138]: Cost
+      - link "Cost Per Minute" [ref=f5e139] [cursor=pointer]:
+        - /url: /engineering/cost-per-minute
+      - link "CM Calculation ★" [ref=f5e140] [cursor=pointer]:
+        - /url: /engineering/cm-calculation
+        - text: CM Calculation
+        - generic [ref=f5e141]: ★
+      - generic [ref=f5e142]: Monitor
+      - link "Productivity Analysis" [ref=f5e143] [cursor=pointer]:
+        - /url: /engineering/productivity-analysis
+      - link "Non-Productive Time" [ref=f5e144] [cursor=pointer]:
+        - /url: /engineering/non-productive-time
+      - link "Delivery Prediction ★" [ref=f5e145] [cursor=pointer]:
+        - /url: /engineering/delivery-prediction
+        - text: Delivery Prediction
+        - generic [ref=f5e146]: ★
+      - link "Disruption Simulation" [ref=f5e147] [cursor=pointer]:
+        - /url: /engineering/disruption-simulation
+      - link "SMV Accuracy Feedback" [ref=f5e148] [cursor=pointer]:
+        - /url: /engineering/smv-accuracy-feedback
+    - generic [ref=f5e149]:
+      - button "▾ Production 23" [ref=f5e150] [cursor=pointer]:
+        - generic [ref=f5e151]: ▾
+        - text: Production
+        - generic [ref=f5e152]: "23"
+      - generic [ref=f5e153]: Setup
+      - link "Production Line" [ref=f5e154] [cursor=pointer]:
+        - /url: /production/production-line
+      - link "Machine Register" [ref=f5e155] [cursor=pointer]:
+        - /url: /production/machine-register
+      - link "Subcontractor Master" [ref=f5e156] [cursor=pointer]:
+        - /url: /production/subcontractor-master
+      - generic [ref=f5e157]: Plan
+      - link "Capacity Plan" [ref=f5e158] [cursor=pointer]:
+        - /url: /production/capacity-plan/1
+      - link "Cut Plan (size/colour) ★" [ref=f5e159] [cursor=pointer]:
+        - /url: /production/cut-plan-size-colour/1
+        - text: Cut Plan (size/colour)
+        - generic [ref=f5e160]: ★
+      - link "Marker Plan" [ref=f5e161] [cursor=pointer]:
+        - /url: /production/marker-plan
+      - link "Line Allocation" [ref=f5e162] [cursor=pointer]:
+        - /url: /production/line-allocation
+      - generic [ref=f5e163]: Execute
+      - link "Cutting Entry ★" [ref=f5e164] [cursor=pointer]:
+        - /url: /production/cutting-entry
+        - text: Cutting Entry
+        - generic [ref=f5e165]: ★
+      - link "Bundle Register" [ref=f5e166] [cursor=pointer]:
+        - /url: /production/bundle-register
+      - link "Bundle Tracking" [ref=f5e167] [cursor=pointer]:
+        - /url: /production/bundle-tracking
+      - link "EMB / Print Entry" [ref=f5e168] [cursor=pointer]:
+        - /url: /production/emb-print-entry
+      - link "Wash Entry ★" [ref=f5e169] [cursor=pointer]:
+        - /url: /production/wash-entry
+        - text: Wash Entry
+        - generic [ref=f5e170]: ★
+      - link "Sewing — Hourly Entry" [ref=f5e171] [cursor=pointer]:
+        - /url: /production/sewing-hourly-entry
+      - link "Rework Entry" [ref=f5e172] [cursor=pointer]:
+        - /url: /production/rework-entry
+      - link "Finishing Entry ★" [ref=f5e173] [cursor=pointer]:
+        - /url: /production/finishing-entry
+        - text: Finishing Entry
+        - generic [ref=f5e174]: ★
+      - link "Packing List & Assortment" [ref=f5e175] [cursor=pointer]:
+        - /url: /production/packing-list-and-assortment
+      - link "Container Loading Plan" [ref=f5e176] [cursor=pointer]:
+        - /url: /production/container-loading-plan
+      - link "Subcontract Order" [ref=f5e177] [cursor=pointer]:
+        - /url: /production/subcontract-order
+      - generic [ref=f5e178]: Monitor
+      - link "Production Dashboard ★" [ref=f5e179] [cursor=pointer]:
+        - /url: /production/production-dashboard
+        - text: Production Dashboard
+        - generic [ref=f5e180]: ★
+      - link "Andon Board" [ref=f5e181] [cursor=pointer]:
+        - /url: /production/andon-board
+      - link "Bottleneck Alerts" [ref=f5e182] [cursor=pointer]:
+        - /url: /production/bottleneck-alerts
+      - generic [ref=f5e183]: Maintain
+      - link "Machine Maintenance" [ref=f5e184] [cursor=pointer]:
+        - /url: /production/machine-maintenance
+      - link "Spare Parts" [ref=f5e185] [cursor=pointer]:
+        - /url: /production/spare-parts
+    - generic [ref=f5e186]:
+      - button "▾ Quality 18" [ref=f5e187] [cursor=pointer]:
+        - generic [ref=f5e188]: ▾
+        - text: Quality
+        - generic [ref=f5e189]: "18"
+      - generic [ref=f5e190]: Master
+      - link "Defect Code" [ref=f5e191] [cursor=pointer]:
+        - /url: /quality/defect-code
+      - link "AQL Standard" [ref=f5e192] [cursor=pointer]:
+        - /url: /quality/aql-standard
+      - link "Buyer Inspection Criteria" [ref=f5e193] [cursor=pointer]:
+        - /url: /quality/buyer-inspection-criteria
+      - generic [ref=f5e194]: Colour
+      - link "Lab Dip" [ref=f5e195] [cursor=pointer]:
+        - /url: /quality/lab-dip/1
+      - generic [ref=f5e196]: Inspect
+      - link "Fabric Inspection (4-point)" [ref=f5e197] [cursor=pointer]:
+        - /url: /quality/fabric-inspection-4-point
+      - link "Testing Lab Record" [ref=f5e198] [cursor=pointer]:
+        - /url: /quality/testing-lab-record
+      - link "Inline QC" [ref=f5e199] [cursor=pointer]:
+        - /url: /quality/inline-qc
+      - link "Endline QC" [ref=f5e200] [cursor=pointer]:
+        - /url: /quality/endline-qc
+      - link "Wash Quality Check" [ref=f5e201] [cursor=pointer]:
+        - /url: /quality/wash-quality-check
+      - link "Finishing Audit" [ref=f5e202] [cursor=pointer]:
+        - /url: /quality/finishing-audit
+      - link "Measurement Audit (POM) ★" [ref=f5e203] [cursor=pointer]:
+        - /url: /quality/measurement-audit-pom
+        - text: Measurement Audit (POM)
+        - generic [ref=f5e204]: ★
+      - link "Inspection Booking" [ref=f5e205] [cursor=pointer]:
+        - /url: /quality/inspection-booking
+      - link "Final Inspection ★" [ref=f5e206] [cursor=pointer]:
+        - /url: /quality/final-inspection/1
+        - text: Final Inspection
+        - generic [ref=f5e207]: ★
+      - generic [ref=f5e208]: Improve
+      - link "CAPA" [ref=f5e209] [cursor=pointer]:
+        - /url: /quality/capa/1
+      - link "Defect Trend Analysis" [ref=f5e210] [cursor=pointer]:
+        - /url: /quality/defect-trend-analysis
+      - link "Supplier Quality Scorecard" [ref=f5e211] [cursor=pointer]:
+        - /url: /quality/supplier-quality-scorecard
+      - link "Cost of Quality ★" [ref=f5e212] [cursor=pointer]:
+        - /url: /quality/cost-of-quality
+        - text: Cost of Quality
+        - generic [ref=f5e213]: ★
+      - link "Quality Risk Prediction" [ref=f5e214] [cursor=pointer]:
+        - /url: /quality/quality-risk-prediction
+    - generic [ref=f5e215]:
+      - button "▾ Commercial & Shipping 18" [ref=f5e216] [cursor=pointer]:
+        - generic [ref=f5e217]: ▾
+        - text: Commercial & Shipping
+        - generic [ref=f5e218]: "18"
+      - generic [ref=f5e219]: Import
+      - link "Import LC ★" [ref=f5e220] [cursor=pointer]:
+        - /url: /commercial/import-lc/1
+        - text: Import LC
+        - generic [ref=f5e221]: ★
+      - link "Utilization Declaration ★" [ref=f5e222] [cursor=pointer]:
+        - /url: /commercial/utilization-declaration
+        - text: Utilization Declaration
+        - generic [ref=f5e223]: ★
+      - link "LC Expiry Monitor" [ref=f5e224] [cursor=pointer]:
+        - /url: /commercial/lc-expiry-monitor
+      - generic [ref=f5e225]: Export
+      - link "Export LC" [ref=f5e226] [cursor=pointer]:
+        - /url: /commercial/export-lc/1
+      - link "Export Permission ★" [ref=f5e227] [cursor=pointer]:
+        - /url: /commercial/export-permission
+        - text: Export Permission
+        - generic [ref=f5e228]: ★
+      - link "Commercial Invoice" [ref=f5e229] [cursor=pointer]:
+        - /url: /commercial/commercial-invoice
+      - link "Shipping Documents ★" [ref=f5e230] [cursor=pointer]:
+        - /url: /commercial/shipping-documents
+        - text: Shipping Documents
+        - generic [ref=f5e231]: ★
+      - link "Document Checklist" [ref=f5e232] [cursor=pointer]:
+        - /url: /commercial/document-checklist
+      - link "Forwarder Booking ★" [ref=f5e233] [cursor=pointer]:
+        - /url: /commercial/forwarder-booking
+        - text: Forwarder Booking
+        - generic [ref=f5e234]: ★
+      - link "Shipment Tracking" [ref=f5e235] [cursor=pointer]:
+        - /url: /commercial/shipment-tracking
+      - link "Document Submission ★" [ref=f5e236] [cursor=pointer]:
+        - /url: /commercial/document-submission
+        - text: Document Submission
+        - generic [ref=f5e237]: ★
+      - link "Document Discrepancy" [ref=f5e238] [cursor=pointer]:
+        - /url: /commercial/document-discrepancy
+      - link "Export Payment ★" [ref=f5e239] [cursor=pointer]:
+        - /url: /commercial/export-payment
+        - text: Export Payment
+        - generic [ref=f5e240]: ★
+      - generic [ref=f5e241]: Settle
+      - link "Short / Excess Reconciliation" [ref=f5e242] [cursor=pointer]:
+        - /url: /commercial/short-excess-reconciliation
+      - link "Buyer Claim" [ref=f5e243] [cursor=pointer]:
+        - /url: /commercial/buyer-claim
+      - link "Export Incentive Claim" [ref=f5e244] [cursor=pointer]:
+        - /url: /commercial/export-incentive-claim
+      - generic [ref=f5e245]: Gate
+      - link "Export Compliance Check ★" [ref=f5e246] [cursor=pointer]:
+        - /url: /commercial/export-compliance-check
+        - text: Export Compliance Check
+        - generic [ref=f5e247]: ★
+      - link "Shipment Mode Advisor" [ref=f5e248] [cursor=pointer]:
+        - /url: /commercial/shipment-mode-advisor
+    - generic [ref=f5e249]:
+      - button "▾ Finance 18" [ref=f5e250] [cursor=pointer]:
+        - generic [ref=f5e251]: ▾
+        - text: Finance
+        - generic [ref=f5e252]: "18"
+      - generic [ref=f5e253]: Setup
+      - link "Chart of Accounts" [ref=f5e254] [cursor=pointer]:
+        - /url: /finance/chart-of-accounts
+      - link "Cost Centre" [ref=f5e255] [cursor=pointer]:
+        - /url: /finance/cost-centre
+      - link "Bank Account" [ref=f5e256] [cursor=pointer]:
+        - /url: /finance/bank-account
+      - link "Fiscal Period Control" [ref=f5e257] [cursor=pointer]:
+        - /url: /finance/fiscal-period-control
+      - generic [ref=f5e258]: Transact
+      - link "Journal Voucher" [ref=f5e259] [cursor=pointer]:
+        - /url: /finance/journal-voucher
+      - link "Accounts Payable" [ref=f5e260] [cursor=pointer]:
+        - /url: /finance/accounts-payable
+      - link "Accounts Receivable" [ref=f5e261] [cursor=pointer]:
+        - /url: /finance/accounts-receivable
+      - link "Cash / Bank Transaction" [ref=f5e262] [cursor=pointer]:
+        - /url: /finance/cash-bank-transaction
+      - link "Bank Reconciliation" [ref=f5e263] [cursor=pointer]:
+        - /url: /finance/bank-reconciliation
+      - link "Landed Cost ★" [ref=f5e264] [cursor=pointer]:
+        - /url: /finance/landed-cost
+        - text: Landed Cost
+        - generic [ref=f5e265]: ★
+      - generic [ref=f5e266]: Assets
+      - link "Fixed Assets" [ref=f5e267] [cursor=pointer]:
+        - /url: /finance/fixed-assets
+      - link "Tax / VAT" [ref=f5e268] [cursor=pointer]:
+        - /url: /finance/tax-vat
+      - link "Company Budget" [ref=f5e269] [cursor=pointer]:
+        - /url: /finance/company-budget
+      - generic [ref=f5e270]: Analyse
+      - link "Cost Variance" [ref=f5e271] [cursor=pointer]:
+        - /url: /finance/cost-variance
+      - link "Order Profitability ★" [ref=f5e272] [cursor=pointer]:
+        - /url: /finance/order-profitability
+        - text: Order Profitability
+        - generic [ref=f5e273]: ★
+      - link "Unit Profitability & Consolidation ★" [ref=f5e274] [cursor=pointer]:
+        - /url: /finance/unit-profitability-and-consolidation
+        - text: Unit Profitability & Consolidation
+        - generic [ref=f5e275]: ★
+      - link "Working Capital Forecast" [ref=f5e276] [cursor=pointer]:
+        - /url: /finance/working-capital-forecast
+      - link "Payment Aging" [ref=f5e277] [cursor=pointer]:
+        - /url: /finance/payment-aging
+    - generic [ref=f5e278]:
+      - button "▾ HR & Payroll 22" [ref=f5e279] [cursor=pointer]:
+        - generic [ref=f5e280]: ▾
+        - text: HR & Payroll
+        - generic [ref=f5e281]: "22"
+      - generic [ref=f5e282]: Master
+      - link "Employee Master" [ref=f5e283] [cursor=pointer]:
+        - /url: /hr/employee-master
+      - link "Department & Designation" [ref=f5e284] [cursor=pointer]:
+        - /url: /hr/department-and-designation
+      - link "Wage Grade" [ref=f5e285] [cursor=pointer]:
+        - /url: /hr/wage-grade
+      - link "Shift & Holiday Calendar" [ref=f5e286] [cursor=pointer]:
+        - /url: /hr/shift-and-holiday-calendar
+      - generic [ref=f5e287]: Attend
+      - link "Attendance Device Monitor" [ref=f5e288] [cursor=pointer]:
+        - /url: /hr/attendance-device-monitor
+      - link "Daily Attendance & Correction ★" [ref=f5e289] [cursor=pointer]:
+        - /url: /hr/daily-attendance-and-correction
+        - text: Daily Attendance & Correction
+        - generic [ref=f5e290]: ★
+      - link "Overtime Approval" [ref=f5e291] [cursor=pointer]:
+        - /url: /hr/overtime-approval
+      - link "Manpower Plan" [ref=f5e292] [cursor=pointer]:
+        - /url: /hr/manpower-plan
+      - generic [ref=f5e293]: Leave
+      - link "Leave Application & Balance" [ref=f5e294] [cursor=pointer]:
+        - /url: /hr/leave-application-and-balance
+      - link "Maternity Benefit" [ref=f5e295] [cursor=pointer]:
+        - /url: /hr/maternity-benefit
+      - generic [ref=f5e296]: Pay
+      - link "Salary Structure" [ref=f5e297] [cursor=pointer]:
+        - /url: /hr/salary-structure
+      - link "Payroll Run ★" [ref=f5e298] [cursor=pointer]:
+        - /url: /hr/payroll-run
+        - text: Payroll Run
+        - generic [ref=f5e299]: ★
+      - link "Salary Disbursement" [ref=f5e300] [cursor=pointer]:
+        - /url: /hr/salary-disbursement
+      - link "Festival Bonus" [ref=f5e301] [cursor=pointer]:
+        - /url: /hr/festival-bonus
+      - link "Provident Fund" [ref=f5e302] [cursor=pointer]:
+        - /url: /hr/provident-fund
+      - link "Advance & Recovery" [ref=f5e303] [cursor=pointer]:
+        - /url: /hr/advance-and-recovery
+      - link "Final Settlement" [ref=f5e304] [cursor=pointer]:
+        - /url: /hr/final-settlement
+      - generic [ref=f5e305]: Welfare
+      - link "Grievance Case" [ref=f5e306] [cursor=pointer]:
+        - /url: /hr/grievance-case
+      - link "Disciplinary Action" [ref=f5e307] [cursor=pointer]:
+        - /url: /hr/disciplinary-action
+      - link "Training Record" [ref=f5e308] [cursor=pointer]:
+        - /url: /hr/training-record
+      - link "Worker Skill Matrix ★" [ref=f5e309] [cursor=pointer]:
+        - /url: /hr/worker-skill-matrix
+        - text: Worker Skill Matrix
+        - generic [ref=f5e310]: ★
+      - link "Worker Unit Transfer" [ref=f5e311] [cursor=pointer]:
+        - /url: /hr/worker-unit-transfer
+    - generic [ref=f5e312]:
+      - button "▾ Compliance & ESG 20" [ref=f5e313] [cursor=pointer]:
+        - generic [ref=f5e314]: ▾
+        - text: Compliance & ESG
+        - generic [ref=f5e315]: "20"
+      - generic [ref=f5e316]: Audit
+      - link "Buyer Code of Conduct" [ref=f5e317] [cursor=pointer]:
+        - /url: /compliance/buyer-code-of-conduct
+      - link "Compliance Audit" [ref=f5e318] [cursor=pointer]:
+        - /url: /compliance/compliance-audit
+      - link "Audit Findings to Closure ★" [ref=f5e319] [cursor=pointer]:
+        - /url: /compliance/audit-findings-to-closure/1
+        - text: Audit Findings to Closure
+        - generic [ref=f5e320]: ★
+      - link "Audit Readiness Score ★" [ref=f5e321] [cursor=pointer]:
+        - /url: /compliance/audit-readiness-score
+        - text: Audit Readiness Score
+        - generic [ref=f5e322]: ★
+      - generic [ref=f5e323]: Certify
+      - link "Certification Register" [ref=f5e324] [cursor=pointer]:
+        - /url: /compliance/certification-register
+      - link "Renewal Alerts" [ref=f5e325] [cursor=pointer]:
+        - /url: /compliance/renewal-alerts
+      - generic [ref=f5e326]: Safety
+      - link "Safety Inspection" [ref=f5e327] [cursor=pointer]:
+        - /url: /compliance/safety-inspection
+      - link "Safety Incident" [ref=f5e328] [cursor=pointer]:
+        - /url: /compliance/safety-incident
+      - link "Emergency Drill" [ref=f5e329] [cursor=pointer]:
+        - /url: /compliance/emergency-drill
+      - generic [ref=f5e330]: Chemical
+      - link "Chemical Inventory (ZDHC)" [ref=f5e331] [cursor=pointer]:
+        - /url: /compliance/chemical-inventory-zdhc
+      - link "Chemical Usage Log" [ref=f5e332] [cursor=pointer]:
+        - /url: /compliance/chemical-usage-log
+      - link "Restricted Substance Test" [ref=f5e333] [cursor=pointer]:
+        - /url: /compliance/restricted-substance-test
+      - generic [ref=f5e334]: Environment
+      - link "Utility Consumption" [ref=f5e335] [cursor=pointer]:
+        - /url: /compliance/utility-consumption
+      - link "Carbon & Water Footprint" [ref=f5e336] [cursor=pointer]:
+        - /url: /compliance/carbon-and-water-footprint
+      - link "Effluent Treatment" [ref=f5e337] [cursor=pointer]:
+        - /url: /compliance/effluent-treatment
+      - link "Waste Record" [ref=f5e338] [cursor=pointer]:
+        - /url: /compliance/waste-record
+      - generic [ref=f5e339]: ESG
+      - link "Sustainability Ledger (per PO) ★" [ref=f5e340] [cursor=pointer]:
+        - /url: /compliance/sustainability-ledger-per-po
+        - text: Sustainability Ledger (per PO)
+        - generic [ref=f5e341]: ★
+      - link "Recycled Content Trace" [ref=f5e342] [cursor=pointer]:
+        - /url: /compliance/recycled-content-trace
+      - link "Buyer ESG Questionnaire" [ref=f5e343] [cursor=pointer]:
+        - /url: /compliance/buyer-esg-questionnaire
+      - link "Higg Assessment" [ref=f5e344] [cursor=pointer]:
+        - /url: /compliance/higg-assessment
+    - generic [ref=f5e345]:
+      - button "▾ Textile Processing 14" [ref=f5e346] [cursor=pointer]:
+        - generic [ref=f5e347]: ▾
+        - text: Textile Processing
+        - generic [ref=f5e348]: "14"
+      - generic [ref=f5e349]: Yarn
+      - link "Yarn Lot Register" [ref=f5e350] [cursor=pointer]:
+        - /url: /textile/yarn-lot-register
+      - generic [ref=f5e351]: Knit
+      - link "Knitting Program" [ref=f5e352] [cursor=pointer]:
+        - /url: /textile/knitting-program
+      - link "Knitting Production" [ref=f5e353] [cursor=pointer]:
+        - /url: /textile/knitting-production
+      - link "Greige Fabric Stock" [ref=f5e354] [cursor=pointer]:
+        - /url: /textile/greige-fabric-stock
+      - generic [ref=f5e355]: Dye
+      - link "Dyeing Recipe" [ref=f5e356] [cursor=pointer]:
+        - /url: /textile/dyeing-recipe
+      - link "Dyeing Batch ★" [ref=f5e357] [cursor=pointer]:
+        - /url: /textile/dyeing-batch/1
+        - text: Dyeing Batch
+        - generic [ref=f5e358]: ★
+      - link "Reprocess Entry" [ref=f5e359] [cursor=pointer]:
+        - /url: /textile/reprocess-entry
+      - link "Batch Sequence Optimizer" [ref=f5e360] [cursor=pointer]:
+        - /url: /textile/batch-sequence-optimizer
+      - link "Recipe Recommendation" [ref=f5e361] [cursor=pointer]:
+        - /url: /textile/recipe-recommendation
+      - generic [ref=f5e362]: Finish
+      - link "Finishing Process" [ref=f5e363] [cursor=pointer]:
+        - /url: /textile/finishing-process
+      - generic [ref=f5e364]: Analyse
+      - link "Right First Time Tracker ★" [ref=f5e365] [cursor=pointer]:
+        - /url: /textile/right-first-time-tracker
+        - text: Right First Time Tracker
+        - generic [ref=f5e366]: ★
+      - link "Fabric Yield Analysis" [ref=f5e367] [cursor=pointer]:
+        - /url: /textile/fabric-yield-analysis
+      - link "Dyeing Cost Sheet" [ref=f5e368] [cursor=pointer]:
+        - /url: /textile/dyeing-cost-sheet
+      - link "Greige Requirement Plan" [ref=f5e369] [cursor=pointer]:
+        - /url: /textile/greige-requirement-plan
+    - generic [ref=f5e370]:
+      - button "▾ Administration 18" [ref=f5e371] [cursor=pointer]:
+        - generic [ref=f5e372]: ▾
+        - text: Administration
+        - generic [ref=f5e373]: "18"
+      - link "Company & Business Units" [ref=f5e374] [cursor=pointer]:
+        - /url: /admin/company-and-business-units
+      - link "Unit Capability" [ref=f5e375] [cursor=pointer]:
+        - /url: /admin/unit-capability/1
+      - link "Users" [ref=f5e376] [cursor=pointer]:
+        - /url: /admin/users
+      - link "Roles & Permissions" [ref=f5e377] [cursor=pointer]:
+        - /url: /admin/roles-and-permissions
+      - link "Unit Access Grants" [ref=f5e378] [cursor=pointer]:
+        - /url: /admin/unit-access-grants
+      - link "Data Scope Rules" [ref=f5e379] [cursor=pointer]:
+        - /url: /admin/data-scope-rules
+      - link "Delegation of Authority" [ref=f5e380] [cursor=pointer]:
+        - /url: /admin/delegation-of-authority
+      - link "Workflow Designer" [ref=f5e381] [cursor=pointer]:
+        - /url: /admin/workflow-designer
+      - link "Numbering Series" [ref=f5e382] [cursor=pointer]:
+        - /url: /admin/numbering-series
+      - link "System Settings" [ref=f5e383] [cursor=pointer]:
+        - /url: /admin/system-settings
+      - link "KPI Alert Rules" [ref=f5e384] [cursor=pointer]:
+        - /url: /admin/kpi-alert-rules
+      - link "Notification Channels" [ref=f5e385] [cursor=pointer]:
+        - /url: /admin/notification-channels
+      - link "Bulk Import" [ref=f5e386] [cursor=pointer]:
+        - /url: /admin/bulk-import
+      - link "Audit Log Viewer" [ref=f5e387] [cursor=pointer]:
+        - /url: /admin/audit-log-viewer
+      - link "Recycle Bin" [ref=f5e388] [cursor=pointer]:
+        - /url: /admin/recycle-bin
+      - link "Integrations" [ref=f5e389] [cursor=pointer]:
+        - /url: /admin/integrations
+      - link "Localisation Strings" [ref=f5e390] [cursor=pointer]:
+        - /url: /admin/localisation-strings
+      - link "Announcements" [ref=f5e391] [cursor=pointer]:
+        - /url: /admin/announcements
+    - generic [ref=f5e392]:
+      - button "▾ Reports & Analytics 5" [ref=f5e393] [cursor=pointer]:
+        - generic [ref=f5e394]: ▾
+        - text: Reports & Analytics
+        - generic [ref=f5e395]: "5"
+      - link "Report View — Fabric" [ref=f5e396] [cursor=pointer]:
+        - /url: /reports/report-view-fabric
+      - link "Report View — Trims" [ref=f5e397] [cursor=pointer]:
+        - /url: /reports/report-view-trims
+      - link "Report Builder" [ref=f5e398] [cursor=pointer]:
+        - /url: /reports/report-builder
+      - link "Report Subscriptions" [ref=f5e399] [cursor=pointer]:
+        - /url: /reports/report-subscriptions
+      - link "Export Jobs" [ref=f5e400] [cursor=pointer]:
+        - /url: /reports/export-jobs
+  - main [ref=f5e401]:
+    - generic [ref=f5e402]:
+      - generic [ref=f5e404]:
+        - text: M1.1
+        - heading "Buyer Master" [level=1] [ref=f5e405]
+        - text: M1 · Master
+      - generic [ref=f5e407]:
+        - generic [ref=f5e408]:
+          - generic [ref=f5e409]: Records in scope
+          - text: 28all records
+        - generic [ref=f5e410]:
+          - generic [ref=f5e411]: Active
+          - text: "10"
+        - generic [ref=f5e412]:
+          - generic [ref=f5e413]: Inactive
+          - text: "9"
+        - generic [ref=f5e414]:
+          - generic [ref=f5e415]: Blacklisted
+          - text: "9"
+      - generic [ref=f5e416]:
+        - generic [ref=f5e417]:
+          - searchbox "Search Buyer Master" [ref=f5e418]
+          - combobox "Filter by status" [ref=f5e419]:
+            - option "All statuses" [selected]
+            - option "ACTIVE"
+            - option "INACTIVE"
+            - option "BLACKLISTED"
+          - generic [ref=f5e420]: 28 record(s)
+          - button "Export" [ref=f5e423] [cursor=pointer]: Export ▾
+          - button "+ buyer" [active] [ref=f5e424] [cursor=pointer]
+        - table [ref=f5e425]:
+          - rowgroup [ref=f5e426]:
+            - row [ref=f5e427]:
+              - columnheader [ref=f5e428]
+              - columnheader "Code" [ref=f5e429]
+              - columnheader "Buyer" [ref=f5e430]
+              - columnheader "Type" [ref=f5e431]
+              - columnheader "Country" [ref=f5e432]
+              - columnheader "Contact" [ref=f5e433]
+              - columnheader "Currency" [ref=f5e434]
+              - columnheader "Incoterm" [ref=f5e435]
+              - columnheader "Payment term" [ref=f5e436]
+              - columnheader "Tenure" [ref=f5e437]
+              - columnheader "AQL" [ref=f5e438]
+              - columnheader "Status" [ref=f5e439]
+          - rowgroup [ref=f5e440]:
+            - row [ref=f5e441]:
+              - cell [ref=f5e442]:
+                - button "Edit" [ref=f5e443] [cursor=pointer]
+                - button "Remove" [ref=f5e444] [cursor=pointer]
+              - cell "BUY-109" [ref=f5e445]
+              - cell "Vantage Basics" [ref=f5e446]
+              - cell "DIRECT" [ref=f5e447]
+              - cell "Ireland" [ref=f5e449]
+              - cell "+8801788360560" [ref=f5e450]
+              - cell "EUR" [ref=f5e451]
+              - cell "CFR" [ref=f5e452]
+              - cell "LC 90 days" [ref=f5e453]
+              - cell "240" [ref=f5e454]
+              - cell "1.5" [ref=f5e455]
+              - cell "ACTIVE" [ref=f5e456]
+            - row [ref=f5e458]:
+              - cell [ref=f5e459]:
+                - button "Edit" [ref=f5e460] [cursor=pointer]
+                - button "Remove" [ref=f5e461] [cursor=pointer]
+              - cell "BUY-110" [ref=f5e462]
+              - cell "Northsea Workwear" [ref=f5e463]
+              - cell "BUYING_HOUSE" [ref=f5e464]
+              - cell "Germany" [ref=f5e466]
+              - cell "+8801788368479" [ref=f5e467]
+              - cell "GBP" [ref=f5e468]
+              - cell "CIF" [ref=f5e469]
+              - cell "TT 30 days" [ref=f5e470]
+              - cell "234" [ref=f5e471]
+              - cell "2.5" [ref=f5e472]
+              - cell "INACTIVE" [ref=f5e473]
+            - row [ref=f5e475]:
+              - cell [ref=f5e476]:
+                - button "Edit" [ref=f5e477] [cursor=pointer]
+                - button "Remove" [ref=f5e478] [cursor=pointer]
+              - cell "BUY-111" [ref=f5e479]
+              - cell "Larkspur Kids" [ref=f5e480]
+              - cell "AGENT" [ref=f5e481]
+              - cell "Netherlands" [ref=f5e483]
+              - cell "+8801788376398" [ref=f5e484]
+              - cell "CAD" [ref=f5e485]
+              - cell "CPT" [ref=f5e486]
+              - cell "DP" [ref=f5e487]
+              - cell "174" [ref=f5e488]
+              - cell "4.0" [ref=f5e489]
+              - cell "BLACKLISTED" [ref=f5e490]
+            - row [ref=f5e492]:
+              - cell [ref=f5e493]:
+                - button "Edit" [ref=f5e494] [cursor=pointer]
+                - button "Remove" [ref=f5e495] [cursor=pointer]
+              - cell "BUY-112" [ref=f5e496]
+              - cell "Tenby Sportswear" [ref=f5e497]
+              - cell "LICENSEE" [ref=f5e498]
+              - cell "United Kingdom" [ref=f5e500]
+              - cell "+8801788384317" [ref=f5e501]
+              - cell "JPY" [ref=f5e502]
+              - cell "CIP" [ref=f5e503]
+              - cell "Open account" [ref=f5e504]
+              - cell "123" [ref=f5e505]
+              - cell "6.5" [ref=f5e506]
+              - cell "ACTIVE" [ref=f5e507]
+            - row [ref=f5e509]:
+              - cell [ref=f5e510]:
+                - button "Edit" [ref=f5e511] [cursor=pointer]
+                - button "Remove" [ref=f5e512] [cursor=pointer]
+              - cell "BUY-113" [ref=f5e513]
+              - cell "Delmar Retail" [ref=f5e514]
+              - cell "DIRECT" [ref=f5e515]
+              - cell "Sweden" [ref=f5e517]
+              - cell "+8801788392236" [ref=f5e518]
+              - cell "BDT" [ref=f5e519]
+              - cell "DAP" [ref=f5e520]
+              - cell "LC at sight" [ref=f5e521]
+              - cell "235" [ref=f5e522]
+              - cell "0.65" [ref=f5e523]
+              - cell "INACTIVE" [ref=f5e524]
+            - row [ref=f5e526]:
+              - cell [ref=f5e527]:
+                - button "Edit" [ref=f5e528] [cursor=pointer]
+                - button "Remove" [ref=f5e529] [cursor=pointer]
+              - cell "BUY-114" [ref=f5e530]
+              - cell "Ostro Fashion" [ref=f5e531]
+              - cell "BUYING_HOUSE" [ref=f5e532]
+              - cell "Canada" [ref=f5e534]
+              - cell "+8801788400155" [ref=f5e535]
+              - cell "USD" [ref=f5e536]
+              - cell "DPU" [ref=f5e537]
+              - cell "LC 90 days" [ref=f5e538]
+              - cell "98" [ref=f5e539]
+              - cell "1.0" [ref=f5e540]
+              - cell "BLACKLISTED" [ref=f5e541]
+            - row [ref=f5e543]:
+              - cell [ref=f5e544]:
+                - button "Edit" [ref=f5e545] [cursor=pointer]
+                - button "Remove" [ref=f5e546] [cursor=pointer]
+              - cell "BUY-115" [ref=f5e547]
+              - cell "Rowan & Vale" [ref=f5e548]
+              - cell "AGENT" [ref=f5e549]
+              - cell "Belgium" [ref=f5e551]
+              - cell "+8801788408074" [ref=f5e552]
+              - cell "EUR" [ref=f5e553]
+              - cell "DDP" [ref=f5e554]
+              - cell "TT 30 days" [ref=f5e555]
+              - cell "127" [ref=f5e556]
+              - cell "1.5" [ref=f5e557]
+              - cell "ACTIVE" [ref=f5e558]
+            - row [ref=f5e560]:
+              - cell [ref=f5e561]:
+                - button "Edit" [ref=f5e562] [cursor=pointer]
+                - button "Remove" [ref=f5e563] [cursor=pointer]
+              - cell "BUY-116" [ref=f5e564]
+              - cell "Sundeck Living" [ref=f5e565]
+              - cell "LICENSEE" [ref=f5e566]
+              - cell "Italy" [ref=f5e568]
+              - cell "+8801788415993" [ref=f5e569]
+              - cell "GBP" [ref=f5e570]
+              - cell "EXW" [ref=f5e571]
+              - cell "DP" [ref=f5e572]
+              - cell "108" [ref=f5e573]
+              - cell "2.5" [ref=f5e574]
+              - cell "INACTIVE" [ref=f5e575]
+            - row [ref=f5e577]:
+              - cell [ref=f5e578]:
+                - button "Edit" [ref=f5e579] [cursor=pointer]
+                - button "Remove" [ref=f5e580] [cursor=pointer]
+              - cell "BUY-101" [ref=f5e581]
+              - cell "Aurora Retail Group" [ref=f5e582]
+              - cell "DIRECT" [ref=f5e583]
+              - cell "Bangladesh" [ref=f5e585]
+              - cell "+8801788423912" [ref=f5e586]
+              - cell "CAD" [ref=f5e587]
+              - cell "FCA" [ref=f5e588]
+              - cell "Open account" [ref=f5e589]
+              - cell "208" [ref=f5e590]
+              - cell "4.0" [ref=f5e591]
+              - cell "BLACKLISTED" [ref=f5e592]
+            - row [ref=f5e594]:
+              - cell [ref=f5e595]:
+                - button "Edit" [ref=f5e596] [cursor=pointer]
+                - button "Remove" [ref=f5e597] [cursor=pointer]
+              - cell "BUY-102" [ref=f5e598]
+              - cell "Nordwind Apparel" [ref=f5e599]
+              - cell "BUYING_HOUSE" [ref=f5e600]
+              - cell "Bangladesh" [ref=f5e602]
+              - cell "+8801788431831" [ref=f5e603]
+              - cell "JPY" [ref=f5e604]
+              - cell "FAS" [ref=f5e605]
+              - cell "LC at sight" [ref=f5e606]
+              - cell "94" [ref=f5e607]
+              - cell "6.5" [ref=f5e608]
+              - cell "ACTIVE" [ref=f5e609]
+            - row [ref=f5e611]:
+              - cell [ref=f5e612]:
+                - button "Edit" [ref=f5e613] [cursor=pointer]
+                - button "Remove" [ref=f5e614] [cursor=pointer]
+              - cell "BUY-103" [ref=f5e615]
+              - cell "Cedar & Pine" [ref=f5e616]
+              - cell "AGENT" [ref=f5e617]
+              - cell "Bangladesh" [ref=f5e619]
+              - cell "+8801788439750" [ref=f5e620]
+              - cell "BDT" [ref=f5e621]
+              - cell "FOB" [ref=f5e622]
+              - cell "LC 90 days" [ref=f5e623]
+              - cell "190" [ref=f5e624]
+              - cell "0.65" [ref=f5e625]
+              - cell "INACTIVE" [ref=f5e626]
+            - row [ref=f5e628]:
+              - cell [ref=f5e629]:
+                - button "Edit" [ref=f5e630] [cursor=pointer]
+                - button "Remove" [ref=f5e631] [cursor=pointer]
+              - cell "BUY-104" [ref=f5e632]
+              - cell "Halden Bros" [ref=f5e633]
+              - cell "LICENSEE" [ref=f5e634]
+              - cell "Bangladesh" [ref=f5e636]
+              - cell "+8801788447669" [ref=f5e637]
+              - cell "USD" [ref=f5e638]
+              - cell "CFR" [ref=f5e639]
+              - cell "TT 30 days" [ref=f5e640]
+              - cell "59" [ref=f5e641]
+              - cell "1.0" [ref=f5e642]
+              - cell "BLACKLISTED" [ref=f5e643]
+            - row [ref=f5e645]:
+              - cell [ref=f5e646]:
+                - button "Edit" [ref=f5e647] [cursor=pointer]
+                - button "Remove" [ref=f5e648] [cursor=pointer]
+              - cell "BUY-105" [ref=f5e649]
+              - cell "Meridian Denim" [ref=f5e650]
+              - cell "DIRECT" [ref=f5e651]
+              - cell "Bangladesh" [ref=f5e653]
+              - cell "+8801788455588" [ref=f5e654]
+              - cell "EUR" [ref=f5e655]
+              - cell "CIF" [ref=f5e656]
+              - cell "DP" [ref=f5e657]
+              - cell "180" [ref=f5e658]
+              - cell "1.5" [ref=f5e659]
+              - cell "ACTIVE" [ref=f5e660]
+            - row [ref=f5e662]:
+              - cell [ref=f5e663]:
+                - button "Edit" [ref=f5e664] [cursor=pointer]
+                - button "Remove" [ref=f5e665] [cursor=pointer]
+              - cell "BUY-106" [ref=f5e666]
+              - cell "Kestrel Outdoor" [ref=f5e667]
+              - cell "BUYING_HOUSE" [ref=f5e668]
+              - cell "Bangladesh" [ref=f5e670]
+              - cell "+8801788463507" [ref=f5e671]
+              - cell "GBP" [ref=f5e672]
+              - cell "CPT" [ref=f5e673]
+              - cell "Open account" [ref=f5e674]
+              - cell "60" [ref=f5e675]
+              - cell "2.5" [ref=f5e676]
+              - cell "INACTIVE" [ref=f5e677]
+            - row [ref=f5e679]:
+              - cell [ref=f5e680]:
+                - button "Edit" [ref=f5e681] [cursor=pointer]
+                - button "Remove" [ref=f5e682] [cursor=pointer]
+              - cell "BUY-107" [ref=f5e683]
+              - cell "Brightwater Stores" [ref=f5e684]
+              - cell "AGENT" [ref=f5e685]
+              - cell "Bangladesh" [ref=f5e687]
+              - cell "+8801788471426" [ref=f5e688]
+              - cell "CAD" [ref=f5e689]
+              - cell "CIP" [ref=f5e690]
+              - cell "LC at sight" [ref=f5e691]
+              - cell "106" [ref=f5e692]
+              - cell "4.0" [ref=f5e693]
+              - cell "BLACKLISTED" [ref=f5e694]
+            - row [ref=f5e696]:
+              - cell [ref=f5e697]:
+                - button "Edit" [ref=f5e698] [cursor=pointer]
+                - button "Remove" [ref=f5e699] [cursor=pointer]
+              - cell "BUY-108" [ref=f5e700]
+              - cell "Ashcombe & Co" [ref=f5e701]
+              - cell "LICENSEE" [ref=f5e702]
+              - cell "Bangladesh" [ref=f5e704]
+              - cell "+8801788479345" [ref=f5e705]
+              - cell "JPY" [ref=f5e706]
+              - cell "DAP" [ref=f5e707]
+              - cell "LC 90 days" [ref=f5e708]
+              - cell "88" [ref=f5e709]
+              - cell "6.5" [ref=f5e710]
+              - cell "ACTIVE" [ref=f5e711]
+            - row [ref=f5e713]:
+              - cell [ref=f5e714]:
+                - button "Edit" [ref=f5e715] [cursor=pointer]
+                - button "Remove" [ref=f5e716] [cursor=pointer]
+              - cell "BUY-109" [ref=f5e717]
+              - cell "Vantage Basics" [ref=f5e718]
+              - cell "DIRECT" [ref=f5e719]
+              - cell "Ireland" [ref=f5e721]
+              - cell "+8801788487264" [ref=f5e722]
+              - cell "BDT" [ref=f5e723]
+              - cell "DPU" [ref=f5e724]
+              - cell "TT 30 days" [ref=f5e725]
+              - cell "63" [ref=f5e726]
+              - cell "0.65" [ref=f5e727]
+              - cell "INACTIVE" [ref=f5e728]
+            - row [ref=f5e730]:
+              - cell [ref=f5e731]:
+                - button "Edit" [ref=f5e732] [cursor=pointer]
+                - button "Remove" [ref=f5e733] [cursor=pointer]
+              - cell "BUY-110" [ref=f5e734]
+              - cell "Northsea Workwear" [ref=f5e735]
+              - cell "BUYING_HOUSE" [ref=f5e736]
+              - cell "Germany" [ref=f5e738]
+              - cell "+8801788495183" [ref=f5e739]
+              - cell "USD" [ref=f5e740]
+              - cell "DDP" [ref=f5e741]
+              - cell "DP" [ref=f5e742]
+              - cell "205" [ref=f5e743]
+              - cell "1.0" [ref=f5e744]
+              - cell "BLACKLISTED" [ref=f5e745]
+            - row [ref=f5e747]:
+              - cell [ref=f5e748]:
+                - button "Edit" [ref=f5e749] [cursor=pointer]
+                - button "Remove" [ref=f5e750] [cursor=pointer]
+              - cell "BUY-111" [ref=f5e751]
+              - cell "Larkspur Kids" [ref=f5e752]
+              - cell "AGENT" [ref=f5e753]
+              - cell "Netherlands" [ref=f5e755]
+              - cell "+8801788503102" [ref=f5e756]
+              - cell "EUR" [ref=f5e757]
+              - cell "EXW" [ref=f5e758]
+              - cell "Open account" [ref=f5e759]
+              - cell "52" [ref=f5e760]
+              - cell "1.5" [ref=f5e761]
+              - cell "ACTIVE" [ref=f5e762]
+            - row [ref=f5e764]:
+              - cell [ref=f5e765]:
+                - button "Edit" [ref=f5e766] [cursor=pointer]
+                - button "Remove" [ref=f5e767] [cursor=pointer]
+              - cell "BUY-112" [ref=f5e768]
+              - cell "Tenby Sportswear" [ref=f5e769]
+              - cell "LICENSEE" [ref=f5e770]
+              - cell "United Kingdom" [ref=f5e772]
+              - cell "+8801788511021" [ref=f5e773]
+              - cell "GBP" [ref=f5e774]
+              - cell "FCA" [ref=f5e775]
+              - cell "LC at sight" [ref=f5e776]
+              - cell "64" [ref=f5e777]
+              - cell "2.5" [ref=f5e778]
+              - cell "INACTIVE" [ref=f5e779]
+            - row [ref=f5e781]:
+              - cell [ref=f5e782]:
+                - button "Edit" [ref=f5e783] [cursor=pointer]
+                - button "Remove" [ref=f5e784] [cursor=pointer]
+              - cell "BUY-113" [ref=f5e785]
+              - cell "Delmar Retail" [ref=f5e786]
+              - cell "DIRECT" [ref=f5e787]
+              - cell "Sweden" [ref=f5e789]
+              - cell "+8801788518940" [ref=f5e790]
+              - cell "CAD" [ref=f5e791]
+              - cell "FAS" [ref=f5e792]
+              - cell "LC 90 days" [ref=f5e793]
+              - cell "137" [ref=f5e794]
+              - cell "4.0" [ref=f5e795]
+              - cell "BLACKLISTED" [ref=f5e796]
+            - row [ref=f5e798]:
+              - cell [ref=f5e799]:
+                - button "Edit" [ref=f5e800] [cursor=pointer]
+                - button "Remove" [ref=f5e801] [cursor=pointer]
+              - cell "BUY-114" [ref=f5e802]
+              - cell "Ostro Fashion" [ref=f5e803]
+              - cell "BUYING_HOUSE" [ref=f5e804]
+              - cell "Canada" [ref=f5e806]
+              - cell "+8801788526859" [ref=f5e807]
+              - cell "JPY" [ref=f5e808]
+              - cell "FOB" [ref=f5e809]
+              - cell "TT 30 days" [ref=f5e810]
+              - cell "79" [ref=f5e811]
+              - cell "6.5" [ref=f5e812]
+              - cell "ACTIVE" [ref=f5e813]
+            - row [ref=f5e815]:
+              - cell [ref=f5e816]:
+                - button "Edit" [ref=f5e817] [cursor=pointer]
+                - button "Remove" [ref=f5e818] [cursor=pointer]
+              - cell "BUY-115" [ref=f5e819]
+              - cell "Rowan & Vale" [ref=f5e820]
+              - cell "AGENT" [ref=f5e821]
+              - cell "Belgium" [ref=f5e823]
+              - cell "+8801788534778" [ref=f5e824]
+              - cell "BDT" [ref=f5e825]
+              - cell "CFR" [ref=f5e826]
+              - cell "DP" [ref=f5e827]
+              - cell "32" [ref=f5e828]
+              - cell "0.65" [ref=f5e829]
+              - cell "INACTIVE" [ref=f5e830]
+            - row [ref=f5e832]:
+              - cell [ref=f5e833]:
+                - button "Edit" [ref=f5e834] [cursor=pointer]
+                - button "Remove" [ref=f5e835] [cursor=pointer]
+              - cell "BUY-116" [ref=f5e836]
+              - cell "Sundeck Living" [ref=f5e837]
+              - cell "LICENSEE" [ref=f5e838]
+              - cell "Italy" [ref=f5e840]
+              - cell "+8801788542697" [ref=f5e841]
+              - cell "USD" [ref=f5e842]
+              - cell "CIF" [ref=f5e843]
+              - cell "Open account" [ref=f5e844]
+              - cell "176" [ref=f5e845]
+              - cell "1.0" [ref=f5e846]
+              - cell "BLACKLISTED" [ref=f5e847]
+            - row [ref=f5e849]:
+              - cell [ref=f5e850]:
+                - button "Edit" [ref=f5e851] [cursor=pointer]
+                - button "Remove" [ref=f5e852] [cursor=pointer]
+              - cell "BUY-101" [ref=f5e853]
+              - cell "Aurora Retail Group" [ref=f5e854]
+              - cell "DIRECT" [ref=f5e855]
+              - cell "Bangladesh" [ref=f5e857]
+              - cell "+8801788550616" [ref=f5e858]
+              - cell "EUR" [ref=f5e859]
+              - cell "CPT" [ref=f5e860]
+              - cell "LC at sight" [ref=f5e861]
+              - cell "40" [ref=f5e862]
+              - cell "1.5" [ref=f5e863]
+              - cell "ACTIVE" [ref=f5e864]
+        - generic [ref=f5e866]:
+          - button "Previous" [disabled] [ref=f5e867]
+          - generic [ref=f5e868]: Page 1 of 2
+          - button "Next" [ref=f5e869]
+      - dialog "+ buyer" [ref=f5e871]:
+        - generic [ref=f5e872]:
+          - heading "+ buyer" [level=2] [ref=f5e873]
+          - button "Close" [ref=f5e874] [cursor=pointer]: ✕
+        - generic [ref=f5e875]:
+          - generic [ref=f5e876]:
+            - generic [ref=f5e877]: Buyer code *
+            - textbox "Buyer code Capitals, digits and hyphens. This is what appears on the PI and the LC, so it is fixed once orders exist against it." [ref=f5e878]:
+              - /placeholder: WMT
+            - generic [ref=f5e879]: Capitals, digits and hyphens. This is what appears on the PI and the LC, so it is fixed once orders exist against it.
+          - generic [ref=f5e880]:
+            - generic [ref=f5e881]: Buyer name *
+            - textbox "Buyer name" [ref=f5e882]:
+              - /placeholder: Walmart Canada
+          - generic [ref=f5e883]:
+            - generic [ref=f5e884]: Buyer type *
+            - combobox "Buyer type DIRECT is the brand itself. A buying house or agent orders on a brand's behalf and takes a commission." [ref=f5e885]:
+              - option "—" [selected]
+              - option "DIRECT"
+              - option "BUYING_HOUSE"
+              - option "AGENT"
+              - option "LICENSEE"
+            - generic [ref=f5e886]: DIRECT is the brand itself. A buying house or agent orders on a brand's behalf and takes a commission.
+          - generic [ref=f5e887]:
+            - generic [ref=f5e888]: Country
+            - textbox "Country" [ref=f5e889]:
+              - /placeholder: Canada
+          - generic [ref=f5e890]:
+            - generic [ref=f5e891]: Address
+            - textbox "Address" [ref=f5e892]:
+              - /placeholder: ""
+          - generic [ref=f5e893]:
+            - generic [ref=f5e894]: Contact person
+            - textbox "Contact person" [ref=f5e895]:
+              - /placeholder: ""
+          - generic [ref=f5e896]:
+            - generic [ref=f5e897]: Contact number
+            - textbox "Contact number" [ref=f5e898]:
+              - /placeholder: +1 905 821 2111
+          - generic [ref=f5e899]:
+            - generic [ref=f5e900]: Email
+            - textbox "Email" [ref=f5e901]:
+              - /placeholder: ""
+          - generic [ref=f5e902]:
+            - generic [ref=f5e903]: Currency
+            - combobox "Currency" [ref=f5e904]:
+              - option "—" [selected]
+              - option "USD"
+              - option "EUR"
+              - option "GBP"
+              - option "CAD"
+              - option "JPY"
+              - option "BDT"
+          - generic [ref=f5e905]:
+            - generic [ref=f5e906]: Incoterm
+            - combobox "Incoterm FOB is the norm for Bangladeshi exports. Every costing for this buyer starts from what you set here." [ref=f5e907]:
+              - option "—" [selected]
+              - option "EXW"
+              - option "FCA"
+              - option "FAS"
+              - option "FOB"
+              - option "CFR"
+              - option "CIF"
+              - option "CPT"
+              - option "CIP"
+              - option "DAP"
+              - option "DPU"
+              - option "DDP"
+            - generic [ref=f5e908]: FOB is the norm for Bangladeshi exports. Every costing for this buyer starts from what you set here.
+          - generic [ref=f5e909]:
+            - generic [ref=f5e910]: Incoterm place
+            - textbox "Incoterm place" [ref=f5e911]:
+              - /placeholder: Chattogram
+          - generic [ref=f5e912]:
+            - generic [ref=f5e913]: Payment term
+            - textbox "Payment term" [ref=f5e914]:
+              - /placeholder: LC at sight
+          - generic [ref=f5e915]:
+            - generic [ref=f5e916]: Tenure (days)
+            - spinbutton "Tenure (days) 0 for sight. This reaches the LC, so a 60 typed as 90 is expensive." [ref=f5e917]
+            - generic [ref=f5e918]: 0 for sight. This reaches the LC, so a 60 typed as 90 is expensive.
+          - generic [ref=f5e919]:
+            - generic [ref=f5e920]: Shipment mode
+            - combobox "Shipment mode" [ref=f5e921]:
+              - option "—" [selected]
+              - option "SEA"
+              - option "AIR"
+              - option "ROAD"
+              - option "RAIL"
+              - option "COURIER"
+          - generic [ref=f5e922]:
+            - generic [ref=f5e923]: AQL level
+            - combobox "AQL level Agreed with the buyer, not chosen at the inspection gate." [ref=f5e924]:
+              - option "—" [selected]
+              - option "0.65"
+              - option "1.0"
+              - option "1.5"
+              - option "2.5"
+              - option "4.0"
+              - option "6.5"
+            - generic [ref=f5e925]: Agreed with the buyer, not chosen at the inspection gate.
+          - generic [ref=f5e926]:
+            - generic [ref=f5e927]: Status
+            - combobox "Status" [ref=f5e928]:
+              - option "—" [selected]
+              - option "ACTIVE"
+              - option "INACTIVE"
+              - option "BLACKLISTED"
+        - generic [ref=f5e929]:
+          - button "+ buyer" [ref=f5e930] [cursor=pointer]
+          - button "Cancel" [ref=f5e931] [cursor=pointer]

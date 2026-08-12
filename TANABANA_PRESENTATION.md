@@ -16,13 +16,13 @@
 
 ## 2. Architecture (কীভাবে বানানো হয়েছে)
 
-| Piece | What it does |
-|---|---|
-| `NAV: NavModule[]` (`nav.data.ts`) | Single source of truth: module → section → screen tree. Drives the side rail, the landing-page redirect, and the Roles & Permissions audit screen — all three read from the same array so nothing gets out of sync. |
-| `ScreenDataService` | Stand-in "backend". Every screen reads/writes through it; data is namespaced per entity as `tanabana:mock:<Entity>` in `localStorage`, so state survives a page refresh. |
-| Screen archetypes | **List** (searchable/sortable table), **Object** (detail page with tabs/sub-records), **Board** (kanban/status board), **Form** (single data-entry form), **Wizard** (multi-step guided flow), **Calendar** (date-grid view). One Angular component per archetype, reused across all 234 screens via routing data — not 234 separate hand-built components. |
-| RBAC | Two tiers: (1) module-level — is this role allowed into the module at all; (2) section-level — which sections inside the module are granted. Computed once via `authoritiesFor(role)` and consumed identically everywhere permissions are checked. |
-| Signals & standalone components | State managed with Angular `signal`/`computed` (no NgRx/RxJS store needed for this scale); every component is `standalone: true`, no NgModules. |
+| Piece                              | What it does                                                                                                                                                                                                                                                                                                                                                |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `NAV: NavModule[]` (`nav.data.ts`) | Single source of truth: module → section → screen tree. Drives the side rail, the landing-page redirect, and the Roles & Permissions audit screen — all three read from the same array so nothing gets out of sync.                                                                                                                                         |
+| `ScreenDataService`                | Stand-in "backend". Every screen reads/writes through it; data is namespaced per entity as `tanabana:mock:<Entity>` in `localStorage`, so state survives a page refresh.                                                                                                                                                                                    |
+| Screen archetypes                  | **List** (searchable/sortable table), **Object** (detail page with tabs/sub-records), **Board** (kanban/status board), **Form** (single data-entry form), **Wizard** (multi-step guided flow), **Calendar** (date-grid view). One Angular component per archetype, reused across all 234 screens via routing data — not 234 separate hand-built components. |
+| RBAC                               | Two tiers: (1) module-level — is this role allowed into the module at all; (2) section-level — which sections inside the module are granted. Computed once via `authoritiesFor(role)` and consumed identically everywhere permissions are checked.                                                                                                          |
+| Signals & standalone components    | State managed with Angular `signal`/`computed` (no NgRx/RxJS store needed for this scale); every component is `standalone: true`, no NgModules.                                                                                                                                                                                                             |
 
 ---
 
