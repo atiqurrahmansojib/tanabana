@@ -1,0 +1,108 @@
+- generic [ref=f17e4]:
+  - complementary [ref=f17e5]:
+    - generic [ref=f17e6]: Tanabana
+    - heading "The ERP that tells you early." [level=1] [ref=f17e7]
+    - paragraph [ref=f17e8]: Multi-unit manufacturing control for ready-made garment exporters.
+    - paragraph [ref=f17e9]: Tanabana — warp and weft, the threads a fabric is woven from.
+  - generic [ref=f17e10]:
+    - generic [ref=f17e11]:
+      - heading "Sign in" [level=2] [ref=f17e12]
+      - paragraph [ref=f17e13]: Your role decides which modules you can open.
+      - generic [ref=f17e14]: Username
+      - textbox [ref=f17e15]
+      - generic [ref=f17e16]: Password
+      - textbox [ref=f17e17]
+      - button "Sign in" [disabled] [ref=f17e18]
+    - generic [ref=f17e19]:
+      - generic [ref=f17e20]: Sign in as — development only
+      - generic [ref=f17e22]:
+        - button "MH Mr. Hoque Managing Director OWNER" [ref=f17e23] [cursor=pointer]:
+          - generic [ref=f17e24]: MH
+          - generic [ref=f17e25]:
+            - generic [ref=f17e26]: Mr. Hoque
+            - generic [ref=f17e27]: Managing Director
+          - generic [ref=f17e28]: OWNER
+        - button "RA Rashida Akter Merchandising Manager MERCH" [ref=f17e29] [cursor=pointer]:
+          - generic [ref=f17e30]: RA
+          - generic [ref=f17e31]:
+            - generic [ref=f17e32]: Rashida Akter
+            - generic [ref=f17e33]: Merchandising Manager
+          - generic [ref=f17e34]: MERCH
+        - button "KI Kamrul Islam Supply Chain SCM" [ref=f17e35] [cursor=pointer]:
+          - generic [ref=f17e36]: KI
+          - generic [ref=f17e37]:
+            - generic [ref=f17e38]: Kamrul Islam
+            - generic [ref=f17e39]: Supply Chain
+          - generic [ref=f17e40]: SCM
+        - button "JM Jasim Mia Store Keeper STORE" [ref=f17e41] [cursor=pointer]:
+          - generic [ref=f17e42]: JM
+          - generic [ref=f17e43]:
+            - generic [ref=f17e44]: Jasim Mia
+            - generic [ref=f17e45]: Store Keeper
+          - generic [ref=f17e46]: STORE
+        - button "KH Kamal Hossain Industrial Engineering IE" [ref=f17e47] [cursor=pointer]:
+          - generic [ref=f17e48]: KH
+          - generic [ref=f17e49]:
+            - generic [ref=f17e50]: Kamal Hossain
+            - generic [ref=f17e51]: Industrial Engineering
+          - generic [ref=f17e52]: IE
+        - button "FA Faruk Ahmed General Manager GM" [ref=f17e53] [cursor=pointer]:
+          - generic [ref=f17e54]: FA
+          - generic [ref=f17e55]:
+            - generic [ref=f17e56]: Faruk Ahmed
+            - generic [ref=f17e57]: General Manager
+          - generic [ref=f17e58]: GM
+        - button "NS Nasrin Sultana Quality Manager QC" [ref=f17e59] [cursor=pointer]:
+          - generic [ref=f17e60]: NS
+          - generic [ref=f17e61]:
+            - generic [ref=f17e62]: Nasrin Sultana
+            - generic [ref=f17e63]: Quality Manager
+          - generic [ref=f17e64]: QC
+        - button "AH Anwar Hossain Commercial / ExIm COMM" [ref=f17e65] [cursor=pointer]:
+          - generic [ref=f17e66]: AH
+          - generic [ref=f17e67]:
+            - generic [ref=f17e68]: Anwar Hossain
+            - generic [ref=f17e69]: Commercial / ExIm
+          - generic [ref=f17e70]: COMM
+        - button "TA Tanvir Ahmed Finance Controller FIN" [ref=f17e71] [cursor=pointer]:
+          - generic [ref=f17e72]: TA
+          - generic [ref=f17e73]:
+            - generic [ref=f17e74]: Tanvir Ahmed
+            - generic [ref=f17e75]: Finance Controller
+          - generic [ref=f17e76]: FIN
+        - button "SK Salma Khatun HR & Compliance HR" [ref=f17e77] [cursor=pointer]:
+          - generic [ref=f17e78]: SK
+          - generic [ref=f17e79]:
+            - generic [ref=f17e80]: Salma Khatun
+            - generic [ref=f17e81]: HR & Compliance
+          - generic [ref=f17e82]: HR
+        - button "DM Dyeing Manager Dyeing Manager DYE" [ref=f17e83] [cursor=pointer]:
+          - generic [ref=f17e84]: DM
+          - generic [ref=f17e85]:
+            - generic [ref=f17e86]: Dyeing Manager
+            - generic [ref=f17e87]: Dyeing Manager
+          - generic [ref=f17e88]: DYE
+        - button "SA System Admin System Administrator ADMIN" [ref=f17e89] [cursor=pointer]:
+          - generic [ref=f17e90]: SA
+          - generic [ref=f17e91]:
+            - generic [ref=f17e92]: System Admin
+            - generic [ref=f17e93]: System Administrator
+          - generic [ref=f17e94]: ADMIN
+        - button "SA Shahin Alam Line Supervisor FLOOR" [ref=f17e95] [cursor=pointer]:
+          - generic [ref=f17e96]: SA
+          - generic [ref=f17e97]:
+            - generic [ref=f17e98]: Shahin Alam
+            - generic [ref=f17e99]: Line Supervisor
+          - generic [ref=f17e100]: FLOOR
+        - button "WC Walmart Canada Buyer — external BUYERP" [ref=f17e101] [cursor=pointer]:
+          - generic [ref=f17e102]: WC
+          - generic [ref=f17e103]:
+            - generic [ref=f17e104]: Walmart Canada
+            - generic [ref=f17e105]: Buyer — external
+          - generic [ref=f17e106]: BUYERP
+        - button "VI Verdatex Intl Supplier — external SUPP" [ref=f17e107] [cursor=pointer]:
+          - generic [ref=f17e108]: VI
+          - generic [ref=f17e109]:
+            - generic [ref=f17e110]: Verdatex Intl
+            - generic [ref=f17e111]: Supplier — external
+          - generic [ref=f17e112]: SUPP
