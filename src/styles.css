@@ -203,7 +203,28 @@ a.nav .code {
 a.nav.on .code { color: var(--accent); }
 .star { margin-left: auto; color: var(--thread); }
 
-.main { grid-area: main; overflow: auto; padding: 20px; }
+.main { grid-area: main; overflow: auto; padding: 20px; position: relative; }
+
+/*
+ * Each module gets its own quiet background wash and rail accent, keyed off
+ * the active nav link's href prefix — CSS-only (:has), no markup or routing
+ * change. Kept low-saturation so the shared "thread" accent (indigo/gold)
+ * still reads as the one constant signature; this only stops every module
+ * from looking like the same screen with different words.
+ */
+.shell:has(.rail a.nav.on[href^="/merchandising"]) .main { background: radial-gradient(1000px 560px at 100% -10%, rgba(42, 74, 134, 0.07), transparent 55%); }
+.shell:has(.rail a.nav.on[href^="/supply-chain"]) .main { background: radial-gradient(1000px 560px at 100% -10%, rgba(20, 120, 130, 0.07), transparent 55%); }
+.shell:has(.rail a.nav.on[href^="/inventory"]) .main { background: radial-gradient(1000px 560px at 100% -10%, rgba(120, 90, 20, 0.07), transparent 55%); }
+.shell:has(.rail a.nav.on[href^="/engineering"]) .main { background: radial-gradient(1000px 560px at 100% -10%, rgba(90, 60, 140, 0.07), transparent 55%); }
+.shell:has(.rail a.nav.on[href^="/production"]) .main { background: radial-gradient(1000px 560px at 100% -10%, rgba(180, 90, 30, 0.07), transparent 55%); }
+.shell:has(.rail a.nav.on[href^="/quality"]) .main { background: radial-gradient(1000px 560px at 100% -10%, rgba(20, 130, 90, 0.07), transparent 55%); }
+.shell:has(.rail a.nav.on[href^="/commercial"]) .main { background: radial-gradient(1000px 560px at 100% -10%, rgba(30, 110, 160, 0.07), transparent 55%); }
+.shell:has(.rail a.nav.on[href^="/finance"]) .main { background: radial-gradient(1000px 560px at 100% -10%, rgba(160, 130, 20, 0.07), transparent 55%); }
+.shell:has(.rail a.nav.on[href^="/hr"]) .main { background: radial-gradient(1000px 560px at 100% -10%, rgba(170, 60, 110, 0.07), transparent 55%); }
+.shell:has(.rail a.nav.on[href^="/compliance"]) .main { background: radial-gradient(1000px 560px at 100% -10%, rgba(150, 70, 40, 0.07), transparent 55%); }
+.shell:has(.rail a.nav.on[href^="/textile"]) .main { background: radial-gradient(1000px 560px at 100% -10%, rgba(40, 130, 150, 0.07), transparent 55%); }
+.shell:has(.rail a.nav.on[href^="/reports"]) .main { background: radial-gradient(1000px 560px at 100% -10%, rgba(90, 100, 130, 0.07), transparent 55%); }
+.shell:has(.rail a.nav.on[href^="/admin"]) .main { background: radial-gradient(1000px 560px at 100% -10%, rgba(60, 60, 60, 0.08), transparent 55%); }
 
 /* ----------------------------------------------------------------- panels -- */
 
@@ -732,9 +753,55 @@ table.grid.lines th { position: sticky; top: 0; background: var(--card); z-index
 
 .deny { padding: 48px; color: var(--ink-soft); }
 
+.hamburger { display: none; font-size: 16px; padding: 6px 10px; }
+
 @media (max-width: 900px) {
   .shell { grid-template-columns: 1fr; grid-template-areas: "bar" "main"; }
-  .rail { display: none; }
+
+  .hamburger { display: inline-flex; }
+  .bar .unit { display: none; }
+  .bar { gap: 10px; padding: 0 12px; }
+  .bar .role { font-size: 12px; }
+
+  .rail {
+    position: fixed;
+    top: var(--bar-h);
+    left: 0;
+    bottom: 0;
+    width: min(84vw, 300px);
+    transform: translateX(-100%);
+    transition: transform 200ms ease;
+    z-index: 15;
+    box-shadow: var(--shadow-lg);
+  }
+  .rail.open { transform: translateX(0); }
+
+  .rail-backdrop {
+    position: fixed;
+    top: var(--bar-h);
+    left: 0; right: 0; bottom: 0;
+    background: rgba(15, 20, 30, 0.45);
+    z-index: 14;
+  }
+
+  .main { padding: 14px; }
+  .screen-head h1 { font-size: 19px; }
+  .toolbar { gap: 6px; }
+  .search { min-width: 0; width: 100%; }
+  .signin-card { padding: 26px 22px 22px; }
+  .demo { margin-top: 28px; }
+
   .login { grid-template-columns: 1fr; }
   .brandside { display: none; }
+}
+
+@media (max-width: 560px) {
+  .bar .role { display: none; }
+  .brand { font-size: 15px; }
+  .kpis, .kpis.band { grid-template-columns: 1fr 1fr; }
+  .fields, .fields.recordview { grid-template-columns: 1fr; }
+  .sheet, .sheet.wide { width: 100vw; }
+  .demogrid { grid-template-columns: 1fr; }
+  .signin-card { padding: 22px 18px 18px; }
+  .toolbar .count { display: none; }
 }

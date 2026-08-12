@@ -23,6 +23,7 @@ import { TPipe } from '../core/i18n/t.pipe';
   template: `
     <div class="shell">
       <header class="bar">
+        <button class="btn hamburger" (click)="railOpen.set(!railOpen())" [attr.aria-label]="'Menu' | t">☰</button>
         <span class="brand">{{ 'Tanabana' | t }}</span>
         <span class="role">{{ auth.user()?.fullName }} · {{ auth.user()?.role }}</span>
         <span class="unit">{{ 'Unit scope' | t }} {{ unitScopeLabel() }}</span>
@@ -32,7 +33,9 @@ import { TPipe } from '../core/i18n/t.pipe';
         <button class="btn" (click)="auth.logout()">{{ 'Sign out' | t }}</button>
       </header>
 
-      <nav class="rail">
+      <div class="rail-backdrop" *ngIf="railOpen()" (click)="railOpen.set(false)"></div>
+
+      <nav class="rail" [class.open]="railOpen()">
         <div class="grp" *ngFor="let m of visibleModules()">
           <button class="glbl" (click)="toggle(m.module)">
             <span class="tw">{{ isOpen(m.module) ? '▾' : '▸' }}</span>
@@ -44,7 +47,8 @@ import { TPipe } from '../core/i18n/t.pipe';
             <ng-container *ngFor="let sec of visibleSections(m)">
               <div class="slbl" *ngIf="sec.name !== 'General'">{{ sec.name | t }}</div>
               <a class="nav" *ngFor="let s of sec.screens"
-                 [routerLink]="screenPath(s)" routerLinkActive="on">
+                 [routerLink]="screenPath(s)" routerLinkActive="on"
+                 (click)="railOpen.set(false)">
                 {{ s.title | t }}
                 <span class="star" *ngIf="s.flagship">★</span>
               </a>
@@ -60,6 +64,10 @@ import { TPipe } from '../core/i18n/t.pipe';
 export class ShellComponent {
   protected readonly auth = inject(AuthService);
   protected readonly i18n = inject(I18nService);
+
+  /** Off-canvas rail state below the 900px breakpoint; irrelevant above it,
+   *  where the rail is always shown inline regardless of this flag. */
+  protected readonly railOpen = signal(false);
 
   /**
    * Ownership is not exclusivity: a role reads more modules than it writes.
