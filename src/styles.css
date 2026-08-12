@@ -62,7 +62,10 @@ html, body {
   font-size: 14px;
   line-height: 1.45;
   color: var(--ink);
-  background: var(--paper);
+  background:
+    radial-gradient(1100px 560px at 100% -8%, rgba(42, 74, 134, 0.07), transparent 58%),
+    radial-gradient(800px 480px at -6% 108%, rgba(200, 147, 26, 0.055), transparent 55%),
+    var(--paper);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -125,7 +128,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing:
   grid-area: rail;
   overflow-y: auto;
   border-right: 1px solid var(--line);
-  background: var(--card);
+  background: linear-gradient(180deg, var(--card) 0%, var(--paper) 100%);
   padding-bottom: 24px;
 }
 
@@ -196,13 +199,14 @@ a.nav.on .code { color: var(--accent); }
 /* ----------------------------------------------------------------- panels -- */
 
 .panel {
-  background: var(--card);
+  background: linear-gradient(175deg, #ffffff 0%, #fbfbfd 100%);
   border: 1px solid var(--line);
   border-radius: var(--r-lg);
   box-shadow: var(--shadow-sm);
   padding: 16px;
   margin-bottom: 16px;
   overflow-x: auto;
+  position: relative;
 }
 
 .screen-head { margin-bottom: 16px; }
@@ -502,7 +506,26 @@ table.grid.lines th { position: sticky; top: 0; background: var(--card); z-index
 }
 
 .kpis { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
-.kpi { border: 1px solid var(--line); border-radius: var(--r-lg); padding: 14px; background: var(--card); box-shadow: var(--shadow-sm); }
+.kpi {
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  padding: 14px 14px 13px;
+  background: linear-gradient(165deg, #ffffff 0%, #f8f9fb 100%);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+.kpi::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--thread) 100%);
+  opacity: 0.85;
+}
+.kpi[data-tone="good"]::before { background: var(--good); }
+.kpi[data-tone="warn"]::before { background: var(--warn); }
+.kpi[data-tone="bad"]::before { background: var(--bad); }
 .kpi .label { color: var(--ink-faint); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
 .kpi .value { font-size: 23px; font-variant-numeric: tabular-nums; color: var(--ink); }
 
@@ -545,6 +568,8 @@ table.grid.lines th { position: sticky; top: 0; background: var(--card); z-index
   gap: 14px;
   padding: 56px;
   background:
+    radial-gradient(560px 420px at 88% 12%, rgba(200, 147, 26, 0.16), transparent 60%),
+    radial-gradient(640px 480px at 6% 92%, rgba(65, 105, 180, 0.22), transparent 62%),
     repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.05) 0 1px, transparent 1px 34px),
     repeating-linear-gradient(25deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 34px),
     linear-gradient(160deg, var(--accent-deep) 0%, var(--ink) 62%);
@@ -571,17 +596,30 @@ table.grid.lines th { position: sticky; top: 0; background: var(--card); z-index
   padding: 48px 32px;
   overflow-y: auto;
   max-height: 100vh;
-  background: var(--paper);
+  background:
+    radial-gradient(900px 520px at 50% -12%, var(--accent-soft) 0%, transparent 62%),
+    radial-gradient(700px 420px at 105% 100%, rgba(200, 147, 26, 0.08), transparent 60%),
+    var(--paper);
 }
 
 .signin-card {
   width: 100%;
   max-width: 372px;
-  background: var(--card);
+  background: linear-gradient(175deg, #ffffff 0%, #fbfbfd 100%);
   border: 1px solid var(--line);
   border-radius: var(--r-lg);
   padding: 30px 30px 26px;
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 24px 48px -20px rgba(20, 38, 74, 0.28), var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+.signin-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--accent-deep) 55%, var(--thread) 100%);
 }
 
 .signin-card h2 { margin: 0 0 4px; font-size: 20px; }
@@ -624,7 +662,7 @@ table.grid.lines th { position: sticky; top: 0; background: var(--card); z-index
   padding: 14px 16px;
   border: 1px solid var(--line);
   border-radius: var(--r-lg);
-  background: var(--card);
+  background: linear-gradient(175deg, #ffffff 0%, #fbfbfd 100%);
   font: inherit;
   text-align: left;
   cursor: pointer;
