@@ -665,6 +665,7 @@ table.grid.lines th { position: sticky; top: 0; background: var(--card); z-index
   box-shadow: 0 30px 60px -20px rgba(20, 38, 74, 0.32), var(--shadow-sm);
   position: relative;
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .signin-card::before {
